@@ -7,4 +7,11 @@ import { Component } from '@angular/core';
 })
 export class AppComponent {
   title = 'ClientGestionStockProduit';
+  showHideSideBar : boolean = false;
+
+  onShowSideBarChange(showHideSideBar: boolean){
+      this.showHideSideBar = showHideSideBar;
+  }
+
+
 }
